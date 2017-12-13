@@ -3,12 +3,15 @@
         ["env", {
             "modules": false
         }],
+        ["es2015", { "modules": false }],
         "stage-2"
     ],
-    "plugins": ["transform-runtime",["import", {
-        "libraryName": "iview",
-        "libraryDirectory": "src/components"
-    }]],
+    "plugins": [["component", [
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+    ]]],
     "env": {
         "test": {
             "presets": ["env", "stage-2"]
