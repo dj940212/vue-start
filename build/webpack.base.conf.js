@@ -51,7 +51,7 @@ module.exports = {
       },
       {
           test: /\.sass$/,
-          loader: 'style!css!sass?sourceMap'
+          loader: 'style-loader!css-loader!sass-loader?sourceMap'
       },
       {
           test: /\.pug$/,
