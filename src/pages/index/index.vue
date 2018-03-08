@@ -100,7 +100,7 @@ export default {
         width: 100%
         height: 100%
         background-color: #000
-        background: url('../../../static/images/large-border.png')
+        background: url('https://i.loli.net/2018/03/08/5aa0f13803964.png')
         background-size: 100% 100%
         background-repeat: no-repeat
         background-position: center
@@ -226,7 +226,7 @@ export default {
                     border-bottom: 20px solid transparent
                     border-left: 15px solid transparent
                     border-right: 15px solid transparent
-                    background-image: url('../../../static/images/img1.png')
+                    background-image: url('https://i.loli.net/2018/03/08/5aa0f18decdc8.png')
                     background-repeat: no-repeat
                     background-size: cover
             .bottom
@@ -267,7 +267,7 @@ export default {
                     border-bottom: 10px solid transparent
                     border-left: 10px solid transparent
                     border-right: 10px solid transparent
-                    background-image: url('../../../static/images/img2.png')
+                    background-image: url('https://i.loli.net/2018/03/08/5aa0f19b2c820.png')
                     background-repeat: no-repeat
                     background-size: cover
             .bottom
